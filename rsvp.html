@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resources\css\rsvp.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+    <title>Sam & Shannon</title>
+</head>
+<body>
+
+<header>
+    <div class="wrapper">
+    <div class="headerbar">
+        <h1 class="title"><a href="index.html">Sam & Shannon</a></h1>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li>Travel & Stay</li>
+                    <li>What to Do</li>
+                </ul>
+            </nav>
+            <button>
+                <p>RSVP</p>
+            </button>
+        </div>
+    </div>
+    </div>
+</header>
+
+<div class="rsvpform">
+    <form class="rsvpwrapper" method="POST" action="https://getform.io/f/6a158fec-57bb-4de4-ab3a-024eb50db29f">
+        <h1>celebrate with us</h1>
+        <h4>kindly reply by august 30th</h4>
+        
+            <div class="question">
+                <label for="guestname">Guest Name*</label>
+                <input type="text" id="guestname" name="guestname" required>
+            </div>
+            <div class="question">
+                <h2>Are you able to attend?*<h2>
+                <label for="attendingyes">Yes</label>
+                <input class="radio" type="radio" name="attending" id="attendingyes" value="yes">
+                <label for="attendingno">No</label>
+                <input class="radio" type="radio" name="attending" id="attendingno" value="no">
+            </div>
+            <div class="question">
+                <label for="email">Guest Email*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="question">
+                <label for="entree">Entree Selection*</label>
+                <select name="entree" id="entree" required>
+                    <option selected disabled>Select an entree</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="beef">Beef</option>
+                    <option value="vegetarian">Vegetarian</option>
+                </select>
+            </div>
+        
+        <label for="dietaryrestrictions">Please let us know if you have any dietary restrictions below</label>
+        <textarea name="dietaryrestrictions" id="dietaryrestrictions" cols="30" rows="4"></textarea><br>
+        <input id="submit" type="submit" value="RSVP">
+
+    </form>
+</div>
+
+</body>
+</html>
