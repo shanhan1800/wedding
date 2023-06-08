@@ -31,7 +31,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/backgroundpics.jpg");
+    /*background-image: url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/backgroundpics.jpg");*/
+    background-image: url("http://samandshan.com/resources/media/backgroundpics.jpg");
     background-size: cover;
     overflow-y: hidden;
     background-position: -30%;

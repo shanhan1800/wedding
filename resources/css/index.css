@@ -38,8 +38,8 @@ div.jumbotron {
         linear-gradient(
             rgba(158, 189, 159, 0.43),
             rgba(158, 189, 159, 0.43)),
-        url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/jumbotron.jpg");
-        /*url("http://127.0.0.1:5500/resources/media/jumbotron.jpg");*/
+        /*url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/jumbotron.jpg");*/
+        url("http://samandshan.com/resources/media/jumbotron.jpg");
     background-size: cover;
     min-height: 823px;
     height: 100%;

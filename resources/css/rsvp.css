@@ -31,7 +31,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/backgroundpics.jpg");
+    /*background-image: url("C:/Users/16033/Desktop/Projects/Wedding Site/resources/media/backgroundpics.jpg");*/
+    background-image: url("http://samandshan.com/resources/media/backgroundpics.jpg");
     background-size: cover;
     overflow-y: hidden;
 }
@@ -208,7 +209,7 @@ select:focus {
 }
 
 #submit {
-    background-color: #DEB8BE;
+    background-color: rgba(222, 184, 190, 0.7);
     color: white;
     font-size: 22px;
     font-weight: bold;
@@ -216,6 +217,10 @@ select:focus {
     border-radius: 20px;
     width: 50%;
     height: 36px;
+}
+
+#submit:hover {
+    background-color: #DEB8BE;
 }
 
 .question {
