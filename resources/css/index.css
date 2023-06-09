@@ -31,7 +31,6 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 750px) {
@@ -51,6 +50,7 @@ body {
         padding: 0 0;
         height: 100%;
         width: 100%;
+        overflow: hidden;
     }
     
     .title, .empty, .ceremony, .reception, .carousel, .arrows {
@@ -93,7 +93,7 @@ body {
     li {
         font-family: "Cormorant Garamond";
         font-weight: bold;
-        font-size: 24px;
+        font-size: 36px;
         list-style-type: none;
         padding: 0px 5px;
         line-height: 2;
@@ -112,7 +112,7 @@ body {
         color: white;
         font-family: "Cormorant Garamond";
         font-weight: bold;
-        font-size: 22px;
+        font-size: 36px;
     }
     
     button p {
@@ -127,7 +127,7 @@ body {
         text-align: center;
         align-self: center;
         padding: 8%;
-        font-size: 26px;
+        font-size: 40px;
     }
     
     .floattext h1{
