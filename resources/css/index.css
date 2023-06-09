@@ -41,6 +41,7 @@ body {
             rgba(158, 189, 159, 0.43)),
             url("http://samandshan.com/resources/media/Mobile_background_Home.png");
         background-size: cover;
+        background-position: bottom;
     }
     
     .title, .empty, .ceremony, .reception, .carousel, .arrows {
