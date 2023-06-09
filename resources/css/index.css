@@ -50,7 +50,6 @@ body {
         padding: 0 0;
         height: 100%;
         width: 100%;
-        overflow: hidden;
     }
     
     .title, .empty, .ceremony, .reception, .carousel, .arrows {
@@ -80,7 +79,7 @@ body {
     }
 
     .headerbar {
-        height: 100%;
+        height: 90%;
     }
 
     .navbar {
@@ -103,7 +102,8 @@ body {
         background-color: rgba(222, 184, 190, 0.7);
         border: none;
         border-radius: 30px;
-        margin: 20px;
+        margin-bottom: 5%;
+        margin-top: 5%;
         transition-duration: 0.4s;
     }
     
@@ -134,14 +134,13 @@ body {
         font-family: "Maragsa";
         font-size: 1em;
         letter-spacing: 2px;
-        line-height: 1.5;
     }
     
     .floattext h3 {
         font-family: "Cormorant Garamond";
         font-weight: bold;
-        font-size: .9em;
-        margin-top: 4%;
+        font-size: .8em;
+        margin-top: 2%;
     }
 
 }
