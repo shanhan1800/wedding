@@ -34,6 +34,25 @@
     </div>
 </header>
 
+<div id='container'></div>
+<script type='text/javascript' src="https://testRSVP-developer-edition.ap24.force.com/lightning/lightning.out.js"></script>
+<script type='text/javascript'>
+function init(){
+    $Lightning.use("c:testRSVPapp",    // name of the Lightning app
+        function() {                  // Callback once framework and app loaded
+            $Lightning.createComponent(
+                "c:testRSVP", // top-level component of your app
+                { },                  // attributes to set on the component when created
+                "container",   // the DOM location to insert the component
+                function(cmp) { // callback when component is created and active on the page
+                }
+            );
+        },
+        'https://samandshan2024-dev-ed.trailblaze.my.site.com/'  // Experience Cloud site endpoint
+    );
+    }
+</script>
+
 <div class="rsvpform">
     <form class="rsvpwrapper" method="POST" action="https://getform.io/f/6a158fec-57bb-4de4-ab3a-024eb50db29f">
         <h1>celebrate with us</h1>
